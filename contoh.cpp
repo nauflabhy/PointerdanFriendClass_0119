@@ -20,6 +20,11 @@ class PersegiPanjang
         }
 };
 
+class Lingkaran
+{
+
+};
+
 int main () {
 
 }
