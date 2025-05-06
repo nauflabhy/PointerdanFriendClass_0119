@@ -1,18 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class mahasiswa {
+    private:
+        string nama;
     public:
-        int nim;
-        void showNim() {
-            cout << "No Induk" << nim << endl;
-        }
+        friend void setNama (mahasiswa &a, string);
 };
-
-int main() {
-    mahasiswa *mhs = new mahasiswa{1}; // pointer Objek mhs
-    mhs->nim = 2;
-    mhs->showNim();
-    delete mhs;
-    return 0;
-}
