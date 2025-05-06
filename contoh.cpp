@@ -13,6 +13,11 @@ class PersegiPanjang
             cout << "Masukan lebar : ";
             cin >> lebar;
         }
+
+        int luasPp(int a, int b)
+        {
+            return a * b;
+        }
 };
 
 int main () {
