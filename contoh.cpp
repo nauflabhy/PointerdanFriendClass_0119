@@ -8,7 +8,10 @@ class PersegiPanjang
 
     public:
         void input (){
-
+            cout << "Masukan panjang : ";
+            cin >> panjang;
+            cout << "Masukan lebar : ";
+            cin >> lebar;
         }
 };
 
