@@ -37,5 +37,6 @@ class Lingkaran
 };
 
 int main () {
-
+    PersegiPanjang objekPP; // membuat objek
+    Lingkaran ol;
 }
